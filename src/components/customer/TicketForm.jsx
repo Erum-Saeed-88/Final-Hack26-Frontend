@@ -52,7 +52,7 @@ const TicketForm = ({ isOpen, onClose, onTicketCreated }) => {
               required
               value={subject}
               onChange={(e) => setSubject(e.target.value)}
-              placeholder="e.g. Charged twice for order #1029"
+              placeholder="e.g. Charged twice for order "
               className="w-full bg-teal-100 border-2 border-teal-700 rounded-lg px-4 py-2 text-teal-700 focus:outline-none focus:border-themeDeepPink"
             />
           </div>
